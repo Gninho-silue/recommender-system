@@ -16,6 +16,8 @@ venv/
 .env/
 *.log
 
+# Log
+recommender_project/outputs/logs
 
 
 
