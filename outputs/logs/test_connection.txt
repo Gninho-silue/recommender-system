@@ -1,0 +1,3 @@
+Test de connexion S3 - 2025-10-23 07:54:37.768497
+Projet: Système de Recommandation MovieLens
+Région: us-east-1

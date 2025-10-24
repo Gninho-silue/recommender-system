@@ -1,0 +1,166 @@
+{
+  "date": "2025-10-23 22:55:55",
+  "model": "HybridRecommenderNet",
+  "best_rmse": 0.6247209402792732,
+  "recommendation_stats": {
+    "n_users_tested": 50,
+    "unique_items_recommended": 29,
+    "diversity_score": 0.058,
+    "top_genres": {
+      "Drama": 308,
+      "Comedy": 95,
+      "Romance": 81,
+      "War": 59,
+      "Adventure": 51,
+      "Animation": 49,
+      "Thriller": 40,
+      "Mystery": 22,
+      "Crime": 15,
+      "Action": 8
+    }
+  },
+  "sample_recommendations": [
+    {
+      "user_id": 610,
+      "user_profile": {
+        "age": 22,
+        "gender": "M",
+        "occupation": "student"
+      },
+      "recommendations": [
+        {
+          "title": "Pather Panchali (1955)",
+          "predicted_rating": 4.478722095489502,
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "title": "Golden Earrings (1947)",
+          "predicted_rating": 4.397272109985352,
+          "genres": [
+            "Adventure",
+            "Romance"
+          ]
+        },
+        {
+          "title": "Wrong Trousers, The (1993)",
+          "predicted_rating": 4.335723400115967,
+          "genres": [
+            "Animation",
+            "Comedy"
+          ]
+        },
+        {
+          "title": "Shawshank Redemption, The (1994)",
+          "predicted_rating": 4.318283557891846,
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "title": "Aiqing wansui (1994)",
+          "predicted_rating": 4.29595947265625,
+          "genres": [
+            "Drama"
+          ]
+        }
+      ]
+    },
+    {
+      "user_id": 943,
+      "user_profile": {
+        "age": 22,
+        "gender": "M",
+        "occupation": "student"
+      },
+      "recommendations": [
+        {
+          "title": "Pather Panchali (1955)",
+          "predicted_rating": 4.480191707611084,
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "title": "Golden Earrings (1947)",
+          "predicted_rating": 4.360696315765381,
+          "genres": [
+            "Adventure",
+            "Romance"
+          ]
+        },
+        {
+          "title": "Aiqing wansui (1994)",
+          "predicted_rating": 4.299349784851074,
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "title": "Wrong Trousers, The (1993)",
+          "predicted_rating": 4.280845642089844,
+          "genres": [
+            "Animation",
+            "Comedy"
+          ]
+        },
+        {
+          "title": "Santa with Muscles (1996)",
+          "predicted_rating": 4.274822235107422,
+          "genres": [
+            "Comedy"
+          ]
+        }
+      ]
+    },
+    {
+      "user_id": 504,
+      "user_profile": {
+        "age": 40,
+        "gender": "F",
+        "occupation": "writer"
+      },
+      "recommendations": [
+        {
+          "title": "Pather Panchali (1955)",
+          "predicted_rating": 4.522894859313965,
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "title": "Golden Earrings (1947)",
+          "predicted_rating": 4.406107425689697,
+          "genres": [
+            "Adventure",
+            "Romance"
+          ]
+        },
+        {
+          "title": "Usual Suspects, The (1995)",
+          "predicted_rating": 4.342568397521973,
+          "genres": [
+            "Crime",
+            "Thriller"
+          ]
+        },
+        {
+          "title": "Santa with Muscles (1996)",
+          "predicted_rating": 4.3372931480407715,
+          "genres": [
+            "Comedy"
+          ]
+        },
+        {
+          "title": "Wrong Trousers, The (1993)",
+          "predicted_rating": 4.319956302642822,
+          "genres": [
+            "Animation",
+            "Comedy"
+          ]
+        }
+      ]
+    }
+  ]
+}

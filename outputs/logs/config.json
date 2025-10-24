@@ -1,0 +1,7 @@
+{
+  "bucket": "amazon-sagemaker-866938993237-us-east-1-748cf3610178",
+  "region": "us-east-1",
+  "role": "arn:aws:iam::866938993237:role/datazone_usr_role_60yhy6kxej61if_bjl07jh4unzqjr",
+  "s3_prefix": "recommender-system-project",
+  "date": "2025-10-23 07:54:37"
+}

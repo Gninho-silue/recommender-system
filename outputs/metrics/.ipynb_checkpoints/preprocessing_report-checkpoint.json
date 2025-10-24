@@ -1,0 +1,64 @@
+{
+  "date": "2025-10-23 07:19:33",
+  "dataset": {
+    "total_samples": 100000,
+    "train_samples": 80000,
+    "test_samples": 20000,
+    "n_users": 943,
+    "n_items": 1682
+  },
+  "features": {
+    "total_features": 21,
+    "feature_list": [
+      "user",
+      "item",
+      "age_normalized",
+      "gender_M",
+      "gender_F",
+      "occupation_encoded",
+      "user_rating_count",
+      "user_avg_rating",
+      "user_rating_std",
+      "num_genres",
+      "item_rating_count",
+      "item_avg_rating",
+      "item_rating_std",
+      "item_popularity_log",
+      "year",
+      "month",
+      "day_of_week",
+      "hour",
+      "genre_match_score",
+      "rating_diff_user_avg",
+      "rating_diff_item_avg"
+    ],
+    "user_features": 7,
+    "item_features": 5,
+    "temporal_features": 4,
+    "interaction_features": 3
+  },
+  "preprocessing": {
+    "encoding": [
+      "user_id",
+      "item_id",
+      "occupation"
+    ],
+    "normalization": [
+      "user_rating_count",
+      "user_rating_std",
+      "item_rating_count",
+      "item_rating_std",
+      "item_popularity_log",
+      "genre_match_score",
+      "rating_diff_user_avg",
+      "rating_diff_item_avg"
+    ],
+    "split_strategy": "temporal",
+    "train_ratio": 0.8
+  },
+  "statistics": {
+    "train_rating_mean": 3.51765,
+    "test_rating_mean": 3.5787,
+    "sparsity": 93.7
+  }
+}
