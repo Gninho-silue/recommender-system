@@ -1,7 +1,11 @@
 # Jupyter / SageMaker
 .ipynb_checkpoints/
+*.ipynb_checkpoints/
 *.ipynb_checkpoints
 *.ipynb~*
+.libs.json
+.ipynb_checkpoints
+.temp_sagemaker_unified_studio_debugging_info
 
 # Python
 __pycache__/
@@ -18,6 +22,8 @@ venv/
 
 # Log
 recommender_project/outputs/logs
+recommender_project/outputs/logs/config.json
+recommender_project/outputs/logs/test_connection.txt
 
 
 
