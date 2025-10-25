@@ -73,16 +73,16 @@ Ce projet implémente un **système de recommandation hybride** (Collaborative F
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     Amazon SageMaker                         │
-│                                                              │
-│  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐   │
-│  │   Notebook   │──▶│   Training   │──▶│   Endpoint   │   │
-│  │   Instance   │   │     Job      │   │   (Deploy)   │   │
-│  └──────────────┘   └──────────────┘   └──────────────┘   │
+│                     Amazon SageMaker                        |
+│                                                             │
+│  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐     │
+│  │   Notebook   │──▶│   Training   │──▶│   Endpoint  │     │  
+│  │   Instance   │   │     Job      │   │   (Deploy)   │     │
+│  └──────────────┘   └──────────────┘   └──────────────┘     │
 │         │                   │                   │           │
 │         ▼                   ▼                   ▼           │
 │    Development          Model              Inference        │
-│                                                              │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -392,3 +392,4 @@ Pour toute question ou suggestion :
 Made with ❤️ and ☕ by Gninninmaguignon Silué
 
 </div>
+
