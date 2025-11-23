@@ -2,7 +2,9 @@
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 *.ipynb~*
-
+.libs.json
+/tmp/temp_sagemaker_unified_studio_debugging_info
+temp_sagemaker_unified_studio_debugging_info
 # Python
 __pycache__/
 *.pyc

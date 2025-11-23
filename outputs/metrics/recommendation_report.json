@@ -1,51 +1,36 @@
 {
-  "date": "2025-10-23 22:55:55",
+  "date": "2025-11-10 10:39:21",
   "model": "HybridRecommenderNet",
-  "best_rmse": 0.6247209402792732,
+  "best_rmse": 0.5534915926931425,
   "recommendation_stats": {
     "n_users_tested": 50,
-    "unique_items_recommended": 29,
-    "diversity_score": 0.058,
+    "unique_items_recommended": 39,
+    "diversity_score": 0.078,
     "top_genres": {
-      "Drama": 308,
-      "Comedy": 95,
-      "Romance": 81,
-      "War": 59,
-      "Adventure": 51,
-      "Animation": 49,
-      "Thriller": 40,
-      "Mystery": 22,
-      "Crime": 15,
-      "Action": 8
+      "Drama": 257,
+      "Comedy": 128,
+      "Animation": 93,
+      "Thriller": 90,
+      "War": 83,
+      "Romance": 61,
+      "Documentary": 52,
+      "Action": 34,
+      "Mystery": 31,
+      "Adventure": 20
     }
   },
   "sample_recommendations": [
     {
-      "user_id": 610,
+      "user_id": 906,
       "user_profile": {
-        "age": 22,
+        "age": 45,
         "gender": "M",
-        "occupation": "student"
+        "occupation": "librarian"
       },
       "recommendations": [
         {
-          "title": "Pather Panchali (1955)",
-          "predicted_rating": 4.478722095489502,
-          "genres": [
-            "Drama"
-          ]
-        },
-        {
-          "title": "Golden Earrings (1947)",
-          "predicted_rating": 4.397272109985352,
-          "genres": [
-            "Adventure",
-            "Romance"
-          ]
-        },
-        {
           "title": "Wrong Trousers, The (1993)",
-          "predicted_rating": 4.335723400115967,
+          "predicted_rating": 4.3197455406188965,
           "genres": [
             "Animation",
             "Comedy"
@@ -53,111 +38,130 @@
         },
         {
           "title": "Shawshank Redemption, The (1994)",
-          "predicted_rating": 4.318283557891846,
+          "predicted_rating": 4.274707317352295,
           "genres": [
             "Drama"
           ]
         },
         {
-          "title": "Aiqing wansui (1994)",
-          "predicted_rating": 4.29595947265625,
+          "title": "Citizen Kane (1941)",
+          "predicted_rating": 4.270598411560059,
           "genres": [
             "Drama"
+          ]
+        },
+        {
+          "title": "Ayn Rand: A Sense of Life (1997)",
+          "predicted_rating": 4.268753528594971,
+          "genres": [
+            "Documentary"
+          ]
+        },
+        {
+          "title": "Casablanca (1942)",
+          "predicted_rating": 4.220341682434082,
+          "genres": [
+            "Drama",
+            "Romance",
+            "War"
           ]
         }
       ]
     },
     {
-      "user_id": 943,
+      "user_id": 940,
       "user_profile": {
-        "age": 22,
+        "age": 32,
         "gender": "M",
+        "occupation": "administrator"
+      },
+      "recommendations": [
+        {
+          "title": "Shawshank Redemption, The (1994)",
+          "predicted_rating": 4.161544322967529,
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "title": "Schindler's List (1993)",
+          "predicted_rating": 4.114687442779541,
+          "genres": [
+            "Drama",
+            "War"
+          ]
+        },
+        {
+          "title": "Wrong Trousers, The (1993)",
+          "predicted_rating": 4.076407432556152,
+          "genres": [
+            "Animation",
+            "Comedy"
+          ]
+        },
+        {
+          "title": "Ayn Rand: A Sense of Life (1997)",
+          "predicted_rating": 4.063294887542725,
+          "genres": [
+            "Documentary"
+          ]
+        },
+        {
+          "title": "Close Shave, A (1995)",
+          "predicted_rating": 4.0590643882751465,
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Thriller"
+          ]
+        }
+      ]
+    },
+    {
+      "user_id": 577,
+      "user_profile": {
+        "age": 36,
+        "gender": "F",
         "occupation": "student"
       },
       "recommendations": [
         {
-          "title": "Pather Panchali (1955)",
-          "predicted_rating": 4.480191707611084,
-          "genres": [
-            "Drama"
-          ]
-        },
-        {
-          "title": "Golden Earrings (1947)",
-          "predicted_rating": 4.360696315765381,
-          "genres": [
-            "Adventure",
-            "Romance"
-          ]
-        },
-        {
-          "title": "Aiqing wansui (1994)",
-          "predicted_rating": 4.299349784851074,
-          "genres": [
-            "Drama"
-          ]
-        },
-        {
-          "title": "Wrong Trousers, The (1993)",
-          "predicted_rating": 4.280845642089844,
+          "title": "Close Shave, A (1995)",
+          "predicted_rating": 4.350140571594238,
           "genres": [
             "Animation",
-            "Comedy"
-          ]
-        },
-        {
-          "title": "Santa with Muscles (1996)",
-          "predicted_rating": 4.274822235107422,
-          "genres": [
-            "Comedy"
-          ]
-        }
-      ]
-    },
-    {
-      "user_id": 504,
-      "user_profile": {
-        "age": 40,
-        "gender": "F",
-        "occupation": "writer"
-      },
-      "recommendations": [
-        {
-          "title": "Pather Panchali (1955)",
-          "predicted_rating": 4.522894859313965,
-          "genres": [
-            "Drama"
-          ]
-        },
-        {
-          "title": "Golden Earrings (1947)",
-          "predicted_rating": 4.406107425689697,
-          "genres": [
-            "Adventure",
-            "Romance"
-          ]
-        },
-        {
-          "title": "Usual Suspects, The (1995)",
-          "predicted_rating": 4.342568397521973,
-          "genres": [
-            "Crime",
+            "Comedy",
             "Thriller"
           ]
         },
         {
-          "title": "Santa with Muscles (1996)",
-          "predicted_rating": 4.3372931480407715,
+          "title": "Wrong Trousers, The (1993)",
+          "predicted_rating": 4.338556289672852,
           "genres": [
+            "Animation",
             "Comedy"
           ]
         },
         {
-          "title": "Wrong Trousers, The (1993)",
-          "predicted_rating": 4.319956302642822,
+          "title": "Ayn Rand: A Sense of Life (1997)",
+          "predicted_rating": 4.301944732666016,
           "genres": [
-            "Animation",
-            "Comedy"
+            "Documentary"
+          ]
+        },
+        {
+          "title": "Citizen Kane (1941)",
+          "predicted_rating": 4.285977840423584,
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "title": "Vertigo (1958)",
+          "predicted_rating": 4.2361602783203125,
+          "genres": [
+            "Mystery",
+            "Thriller"
           ]
         }
       ]
